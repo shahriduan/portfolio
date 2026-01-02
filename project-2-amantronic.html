@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amantronic Defect Detection | Case Study</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">&lt;Shahriduan<span class="highlight">.Dev</span>/&gt;</a></div>
+        <a href="projects.html" class="btn-outline">All Projects</a>
+    </nav>
+
+    <header class="project-hero">
+        <div class="hero-content">
+            <p class="mono-text highlight">Case Study</p>
+            <h1 class="big-heading">Amantronic Defect Detection</h1>
+            <p class="hero-desc">
+                A dual-purpose system for RapidKL trains that combines audio-based mechanical defect detection with real-time rolling stock tracking.
+            </p>
+        </div>
+    </header>
+
+    <section class="project-info-bar">
+        <div class="info-grid">
+            <div class="info-item">
+                <h3>Key Tech</h3>
+                <p>Audio Frequency Analysis</p>
+            </div>
+            <div class="info-item">
+                <h3>Tech Stack</h3>
+                <ul class="tech-tags">
+                    <li>Laravel</li>
+                    <li>IoT / GPS</li>
+                    <li>MQTT</li>
+                    <li>Web Dashboard</li>
+                </ul>
+            </div>
+            <div class="info-item">
+                <h3>Context</h3>
+                <p>VISI Innoworks</p>
+                <p class="sub-text">Client: RapidKL / NI Partner</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="project-content" style="text-align: justify">
+        
+        <div class="content-block">
+            <h2><span class="highlight">01.</span> The Problem</h2>
+            <p>
+                The operator faced two distinct challenges: identifying mechanical defects in trains before catastrophic failure, and monitoring rolling stock location in real-time, especially in underground tunnels where GPS signals are lost.
+            </p>
+            <p>
+                Additionally, safety was a concern for trackside workers, requiring a system to warn them of approaching trains to prevent accidents.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h2><span class="highlight">02.</span> The Solution</h2>
+            <p>
+                We developed <strong>Amantronic</strong>, a unified IoT solution that serves two critical functions:
+            </p>
+            <p>
+                <strong>1. Audio Defect Detection:</strong> The system analyzes sound data from the moving train, converting it into frequency signals to identify specific mechanical defects automatically.
+            </p>
+            <p>
+                <strong>2. Rolling Stock Tracking:</strong> An on-board GPS tracker transmits location data via 4G/5G every 0.5 seconds. The system synthesizes this data to calculate ground speed and predicted trajectory, ensuring continuous tracking even in underground tunnels.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h2><span class="highlight">03.</span> My Contribution</h2>
+            <ul class="contribution-list">
+                <li><strong>Leadership:</strong> Served as a key developer contributing to the system design and technical implementation, collaborating closely with stakeholders to translate operational requirements into a reliable, scalable monitoring platform.</li>
+                <li><strong>Development:</strong> Designed and developed a web-based monitoring system that provides centralized visibility into train condition data, featuring responsive dashboards and real-time status updates.</li>
+                <li><strong>Integration:</strong> Implemented functionality to capture and process sound data, converting raw audio signals into analyzable frequency data to support early detection of mechanical defects in train components.</li>
+                <li><strong>Optimization:</strong> Integrated Google Maps API to deliver a real-time train tracking feature, visualizing live train locations and movement data to enhance situational awareness and maintenance decision-making.</li>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h2><span class="highlight">04.</span> Key Features</h2>
+            <ul class="contribution-list">
+                <li>
+                    <strong>Frequency Signal Analysis:</strong> Converts raw audio data into frequency spectrums to detect anomalies indicative of mechanical failure.
+                </li>
+                <li>
+                    <strong>Trajectory & Geo-Fencing:</strong> The Cloud system calculates the future path of rolling stocks to perform geo-fencing analysis.
+                </li>
+                <li>
+                    <strong>Underground Tracking:</strong> Capable of deriving geo-locations and ground speed when the train is operating underground without GPS.
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer class="project-footer text-center">
+        <p class="mono-text">Next Project</p>
+        <a href="project-3-umw.html" class="next-project-link">UMW Pump Monitoring &rarr;</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
