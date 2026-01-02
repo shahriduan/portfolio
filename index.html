@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Shahriduan | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">&lt;Shahriduan<span class="highlight">.Dev</span>/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about"><span class="code-num">01.</span> About</a></li>
+            <li><a href="#experience"><span class="code-num">02.</span> Experience</a></li>
+            <li><a href="#projects"><span class="code-num">03.</span> Work</a></li>
+            <li><a href="#skills"><span class="code-num">04.</span> Skills</a></li>
+            <li><a href="#contact" class="btn-resume">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="mono-text highlight">Hi, my name is</p>
+            <h1 class="big-heading">Mohammad Shahriduan.</h1>
+            <h2 class="big-heading text-slate">I build scalable digital systems.</h2>
+            <p class="hero-desc">
+                I am a Full-Stack Developer with 8 years of experience in hybrid web, mobile, and desktop application development. I specialize in leading teams to build scalable APIs, optimize databases, and deploy cross-platform solutions.
+            </p>
+            <a href="#projects" class="btn-outline">Check out my work!</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-heading"><span class="code-num">01.</span> About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I have a proven track record of overseeing full project lifecycles—from architecture to deployment. I am adept in Git-based workflows and DevOps practices, with deep expertise in modern frameworks like Laravel, Vue.js, and React.</p>
+                <p>Currently, I serve as a <strong>Technical Lead</strong> at VISI Innoworks, mentoring teams and delivering high-impact solutions for clients like Petronas and UMW.</p>
+                
+                <h3 class="sub-heading">Education</h3>
+                <ul class="education-list">
+                    <li><strong>Bachelor of IT (Honours)</strong> - UNISEL (CGPA 3.15)</li>
+                </ul>
+                <ul class="education-list">
+                    <li><strong>STPM</strong> - SMK Jalan Reko (CGPA 2.42)</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                <div class="img-wrapper">
+                    <img src="profile_photo.png" alt="Mohammad Shahriduan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 class="section-heading"><span class="code-num">02.</span> Where I've Worked</h2>
+        <div class="jobs-container">
+            <div class="job-tabs">
+                <button class="tab-btn active" data-id="job1">VISI Innoworks Sdn Bhd</button>
+                <button class="tab-btn" data-id="job2">Nationwide Express Courier Berhad</button>
+                <button class="tab-btn" data-id="job3">Klezcar Travel & Tours Sdn Bhd</button>
+            </div>
+            
+            <div class="job-content active" id="job1">
+                <h3>Full-Stack Developer <span class="highlight">@ VISI Innoworks Sdn Bhd</span></h3>
+                <p class="job-date">Feb 2023 - Current</p>
+                <ul>
+                    <li>Served as Technical Lead & Project Lead, managing system architecture and full project lifecycles.</li>
+                    <li>Led the development of <strong>MyKilang</strong> (MES), featuring OEE modules and real-time dashboards.</li>
+                    <li>Developed <strong>Amantronic</strong> (Sound Defect Detection) for RapidKL and <strong>AdaPT</strong> (Advanced Diagnostic and Prognostic Technology) for Petronas.</li>
+                    <li>Mentored a 6-member team, implementing structured peer reviews and upgrading Laravel apps from v8 to v12.</li>
+                </ul>
+            </div>
+
+            <div class="job-content" id="job2">
+                <h3>Web Developer <span class="highlight">@ Nationwide Express</span></h3>
+                <p class="job-date">May 2021 - Dec 2022</p>
+                <ul>
+                    <li>Revamped the CRMS and E-Shipping platform using the Laravel framework.</li>
+                    <li>Managed internal systems (Billing, Petty Cash, Operations) and optimized Microsoft SQL Server databases.</li>
+                    <li>Developed APIs for seamless data integration between internal databases and third-party systems.</li>
+                </ul>
+            </div>
+
+            <div class="job-content" id="job3">
+                <h3>Web Developer <span class="highlight">@ Klezcar Travel</span></h3>
+                <p class="job-date">Feb 2018 - May 2021</p>
+                <ul>
+                    <li>Developed booking systems for internal staff and external customers using PHP and MySQL.</li>
+                    <li>Integrated payment gateways (SenangPay, iPay88) and SMS/Email services.</li>
+                    <li>Maintained Linux servers (Dedicated & Shared) using cPanel & WHM.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-heading"><span class="code-num">03.</span> Some Things I've Built</h2>
+
+        <div class="featured-project">
+            <div class="featured-content">
+                <p class="mono-text highlight">Featured Project</p>
+                <h3 class="featured-title"><a href="project-1-mykilang.html">MyKilang MES</a></h3>
+                <div class="featured-desc">
+                    <p>
+                        A Manufacturing Execution System (MES) built to modernize factory operations. I led the development of modules for <strong>Overall Equipment Effectiveness (OEE)</strong>, asset tracking, production planning and many more.
+                    </p>
+                </div>
+                <ul class="featured-tech">
+                    <li>Laravel</li>
+                    <li>Vue.js</li>
+                    <li>MQTT</li>
+                </ul>
+                <div class="project-links mt-4">
+                    <a href="project-1-mykilang.html" class="btn-outline small-btn">View Case Study</a>
+                </div>
+            </div>
+            <div class="featured-img">
+                <a href="project-1-mykilang.html">
+                    <img src="oee.png" alt="MyKilang Dashboard" class="img-cover">
+                    <!-- <div class="project-placeholder-box">
+                        <i class="fas fa-industry fa-3x"></i>
+                        <p style="margin-top:10px;">MyKilang Dashboard</p>
+                    </div> -->
+                </a>
+            </div>
+        </div>
+
+        <!-- <h3 class="sub-heading text-center" style="margin: 60px 0 30px;">Other Noteworthy Projects</h3>
+        
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="far fa-folder folder-icon"></i>
+                    <div class="card-links">
+                        <a href="project-2.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title"><a href="project-2.html">Amantronic Defect Detection</a></h3>
+                <div class="project-desc">
+                    <p>Developed for RapidKL. An audio analysis system that converts train sound data into frequency signals to identify mechanical defects automatically.</p>
+                </div>
+                <ul class="project-tech">
+                    <li>Laravel</li>
+                    <li>MQTT</li>
+                    <li>Signal Processing</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="far fa-folder folder-icon"></i>
+                    <div class="card-links">
+                        <a href="project-3.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title"><a href="project-3.html">UMW Pump Monitoring</a></h3>
+                <div class="project-desc">
+                    <p>IoT web system capturing real-time vibration and temperature data. Includes a cross-platform mobile app built with Quasar.</p>
+                </div>
+                <ul class="project-tech">
+                    <li>Laravel</li>
+                    <li>Quasar</li>
+                    <li>MQTT</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="far fa-folder folder-icon"></i>
+                    <div class="card-links">
+                        <a href="project-4.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title"><a href="project-4.html">AdaPT (Petronas)</a></h3>
+                <div class="project-desc">
+                    <p>Advanced Diagnostic and Prognostic Technology. A predictive system designed to detect early signs of creep failure in infrastructure.</p>
+                </div>
+                <ul class="project-tech">
+                    <li>Signal Processing</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="far fa-folder folder-icon"></i>
+                    <div class="card-links">
+                        <a href="project-5.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title"><a href="project-5.html">Pritech 4.0</a></h3>
+                <div class="project-desc">
+                    [cite_start]<p>Collaborated on VSys OEE, a digital factory management system helping 20 Bumiputera SME factories modernize operations[cite: 18].</p>
+                </div>
+                <ul class="project-tech">
+                    <li>Laravel</li>
+                    <li>Digitalization</li>
+                </ul>
+            </div>
+
+            <div class="project-card">
+                <div class="card-top">
+                    <i class="far fa-folder folder-icon"></i>
+                    <div class="card-links">
+                        <a href="project-5.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <h3 class="project-title"><a href="project-5.html">CMS</a></h3>
+                <div class="project-desc">
+                    [cite_start]<p>Collaborated on VSys OEE, a digital factory management system helping 20 Bumiputera SME factories modernize operations[cite: 18].</p>
+                </div>
+                <ul class="project-tech">
+                    <li>Laravel</li>
+                    <li>Digitalization</li>
+                </ul>
+            </div>
+
+        </div> -->
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-heading"><span class="code-num">04.</span> Technical Skills</h2>
+        <div class="skills-wrapper">
+            
+            <div class="skill-category">
+            <h3>Programing Languages</h3>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>PHP</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>Dart</span>
+                    <span>ColdFusion</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Frameworks/Libraries</h3>
+                <div class="skill-tags">
+                    <span>Laravel</span>
+                    <span>Livewire</span>
+                    <span>Inertia</span>
+                    <span>Alpine.js</span>
+                    <span>Vue.js</span>
+                    <span>Nuxt</span>
+                    <span>Vuetify</span>
+                    <!-- <span>Quasar</span> -->
+                    <!-- <span>Ionic</span> -->
+                    <span>React</span>
+                    <!-- <span>React Native</span> -->
+                    <!-- <span>Flutter</span> -->
+                    <span>Bootstrap</span>
+                    <span>Material Design</span>
+                    <span>ASP.net</span>
+                    <!-- <span>Capacitor.js</span> -->
+                    <!-- <span>Electron.js</span> -->
+                    <span>jQuery</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Mobile & Desktop</h3>
+                <div class="skill-tags">
+                    <span>React Native</span>
+                    <span>Ionic</span>
+                    <span>Quasar</span>
+                    <span>Electron.js</span>
+                    <span>Capacitor.js</span>
+                    <span>Flutter</span>
+                    <span>Android/iOS Deployment</span>
+                    <span>Progressive Web App (PWA)</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Databases</h3>
+                <div class="skill-tags">
+                    <span>MySQL</span>
+                    <span>SQL Server</span>
+                    <span>PostgreSQL</span>
+                    <span>SQLite</span>
+                    <span>phpMyAdmin</span>
+                    <span>Adminer</span>
+                    <span>HeidiSQL</span>
+                    <span>DBeaver</span>
+                    <span>TablePlus</span>
+                    <span>MySQL Workbench</span>
+                    <span>SQL Server Management Studio</span>
+                    <span>pgAdmin</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Gateway Integration</h3>
+                <div class="skill-tags">
+                    <span>Payment: senangPay, iPay88, toyyibPay, RazerPay (Fiuu), Billplz</span>
+                    <span>SMS: Klasiksms, Twilio Messaging</span>
+                    <span>Email: SMTP, Mailtrap, Mailgun, Twilio SendGrid Email, Sendinblue (Brevo)</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Tools & Integrations</h3>
+                <div class="skill-tags">
+                    <span>Pusher Websockets</span>
+                    <span>MQTT (EMQX, Mosquitto, Favoriot)</span>
+                    <span>Cloudflare</span>
+                    <span>Firebase</span>
+                    <span>Power BI</span>
+                    <span>FTP FileZilla</span>
+                    <span>Sentry</span>
+                    <span>Google Maps API</span>
+                    <span>Google Looker Studio</span>
+                    <span>Power BI</span>
+                    <span>FanRuan</span>
+                    <span>Wordpress</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Version Control</h3>
+                <div class="skill-tags">
+                    <span>GIT</span>
+                    <span>Github</span>
+                    <span>Gitlab</span>
+                    <span>Bitbucket</span>
+                    <span>Sourcetree</span>
+                    <span>GitHub Desktop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section">
+        <h2 class="section-heading"><span class="code-num">05.</span> Freelance Projects</h2>
+        <div class="freelance-grid">
+            <div class="freelance-card">
+                <h3>Nathaasya Jewellers</h3>
+                [cite_start]<p>Full-featured e-commerce platform enabling online product showcasing and secure payments[cite: 66].</p>
+            </div>
+            <div class="freelance-card">
+                <h3>GAISS System</h3>
+                [cite_start]<p>Surveillance system (web & mobile) for Gagasan Sentral to manage building supervision[cite: 65].</p>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact" class="section text-center">
+        <p class="mono-text highlight">What's Next?</p>
+        <h2 class="big-heading">Get In Touch</h2>
+        <p class="contact-desc">
+            I am currently based in Rawang, Selangor. Whether you have a question about my work or want to discuss a project, my inbox is open.
+        </p>
+        <a href="mailto:shahriduan94@gmail.com" class="btn-outline big-btn">Say Hello</a>
+        <!-- <p class="mono-text" style="margin-top:20px;">011-39035542</p> -->
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Designed & Built by Mohammad Shahriduan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
